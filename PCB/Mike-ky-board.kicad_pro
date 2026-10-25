@@ -172,7 +172,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,7 +183,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -196,7 +194,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -520,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -530,7 +527,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Mike-ky-board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -665,7 +662,7 @@
         "uuid": "639ddc98-66ad-4531-a825-73420f4a9195"
       }
     ],
-    "used_designators": "#PWR1-11,A1,C1-8,D1-180,LS1-2,SW1-183,U1-4",
+    "used_designators": "#PWR1-11,LS1-2,A1,C1-8,D1-180,SW1-183,U1-4",
     "variants": []
   },
   "sheets": [
